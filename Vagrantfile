@@ -79,14 +79,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	config.vm.boot_timeout = 180
 # If you have no Internet access (can not resolve *.local.typo3.org), you can use host aliases:
 # 	config.hostsupdater.aliases = [
-# 		'4.5.cms.local.typo3.org',
-# 		'4.5.39.cms.local.typo3.org',
-# 		'6.2.cms.local.typo3.org',
-# 		'6.2.9.cms.local.typo3.org',
-# 		'7.0.cms.local.typo3.org',
-# 		'7.0.2.cms.local.typo3.org',
-# 		'1.2.neos.local.typo3.org',
-# 		'dev-master.neos.local.typo3.org'
+# 		'6.2.14.local.typo3.org',
+# 		'7.3.1.local.typo3.org'
 # 		]
 
 	# Network
