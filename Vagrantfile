@@ -71,6 +71,12 @@ plugins.each do |plugin, version|
 	end
 end
 
+$script = <<SCRIPT
+echo "============================================================="
+echo "All done! Visit http://local.typo3.org in your browser."
+echo "============================================================="
+SCRIPT
+
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = 2
 
@@ -127,15 +133,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		v.customize ["set", :id, "--memsize", MEMORY, "--cpus", CORES]
 	end
 
-	$script = <<SCRIPT
-	echo "============================================================="
-	echo "All done! Visit http://local.typo3.org in your browser."
-	echo "============================================================="
-SCRIPT
-
-	Vagrant.configure("2") do |config|
-	  config.vm.provision "shell", inline: $script
-	end
+	config.vm.provision "shell", inline: $script
 
 	# Setup synced folders
 	configuration['synced_folders'].each do |folder|
