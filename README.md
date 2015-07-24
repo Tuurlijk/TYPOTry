@@ -1,4 +1,4 @@
-# TYPO3.Try
+# TYPOTry
 A Vagrant box to try out the most recent TYPO3 releases.
 
 Just run `vagrant up` and visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.3.1.local.typo3.org/typo3/](http://7.3.1.local.typo3.org/typo3/).
@@ -8,8 +8,8 @@ Installation is pretty straight forward. You're just a couple of steps away from
 
 1). Clone TYPO3.Tru and cd into it:
 ```bash
-git clone https://github.com/Tuurlijk/TYPO3.Try.git
-cd TYPO3.Try
+git clone https://github.com/Tuurlijk/TYPOTry.git
+cd TYPOTry
 ```
 
 2). Then boot the machine:
