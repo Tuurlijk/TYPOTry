@@ -3,6 +3,8 @@ A Vagrant box to try out the most recent TYPO3 releases.
 
 Just run `vagrant up` and visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.3.1.local.typo3.org/typo3/](http://7.3.1.local.typo3.org/typo3/).
 
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
+
 ## Installation
 Installation is pretty straight forward. You're just a couple of steps away from 'great success'.
 
