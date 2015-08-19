@@ -76,7 +76,7 @@ echo "============================================================="
 echo "All done!"
 echo "You can now try one of these sites:"
 echo "- http://6.2.14.local.typo3.org"
-echo "- http://4.7.0.local.typo3.org"
+echo "- http://7.4.0.local.typo3.org"
 echo "============================================================="
 SCRIPT
 
