@@ -74,9 +74,14 @@ end
 $script = <<SCRIPT
 echo "============================================================="
 echo "All done!"
+echo ""
 echo "You can now try one of these sites:"
-echo "- http://6.2.14.local.typo3.org"
-echo "- http://7.4.0.local.typo3.org"
+echo "- http://6.2.14.local.typo3.org/typo3/"
+echo "- http://7.4.0.local.typo3.org/typo3/"
+echo "- http://local.typo3.org:1080/ <- mailcatcher"
+echo ""
+echo "Username: admin"
+echo "Password: supersecret"
 echo "============================================================="
 SCRIPT
 
