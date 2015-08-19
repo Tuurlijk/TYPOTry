@@ -1,7 +1,7 @@
 # TYPOTry
 A Vagrant box to try out the most recent TYPO3 releases.
 
-Just run `vagrant up` and visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.3.1.local.typo3.org/typo3/](http://7.3.1.local.typo3.org/typo3/).
+Just run `vagrant up` and visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.4.0.local.typo3.org/typo3/](http://7.4.0.local.typo3.org/typo3/).
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
 
@@ -19,7 +19,7 @@ cd TYPOTry
 vagrant up
 ```
 
-3). Now you can visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.3.1.local.typo3.org/typo3/](http://7.3.1.local.typo3.org/typo3/). There you may need to run through the install tool. You can access the databases as user `typo3` with the password `supersecret`. If you are presented with a TYPO3 login screen, you can login as user `admin` with the password `supersecret`.
+3). Now you can visit [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/) or [http://7.4.0.local.typo3.org/typo3/](http://7.4.0.local.typo3.org/typo3/). There you may need to run through the install tool. You can access the databases as user `typo3` with the password `supersecret`. If you are presented with a TYPO3 login screen, you can login as user `admin` with the password `supersecret`.
 
 ## How do I get onto the box?
 You can login by doing a `vagrant ssh`. That user has full sudo privileges. Or you can `ssh vagrant@local.typo3.org` using password `vagrant`.
