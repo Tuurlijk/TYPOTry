@@ -76,6 +76,8 @@ echo "============================================================="
 echo "All done!"
 echo ""
 echo "You can now try one of these sites:"
+echo "- http://1.2.10.local.neos.io/neos/"
+echo "- http://2.0.0.local.neos.io/neos/"
 echo "- http://6.2.14.local.typo3.org/typo3/"
 echo "- http://7.4.0.local.typo3.org/typo3/"
 echo "- http://local.typo3.org:1080/ <- mailcatcher"
@@ -141,7 +143,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		v.customize ["set", :id, "--memsize", MEMORY, "--cpus", CORES]
 	end
 
-	config.vm.provision "shell", inline: $script
+	# Show information what to do after the machine has booted
+	config.vm.provision "shell", inline: $script, run: "always"
 
 	# Setup synced folders
 	configuration['synced_folders'].each do |folder|
