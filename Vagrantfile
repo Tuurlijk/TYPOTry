@@ -76,8 +76,6 @@ echo "============================================================="
 echo "All done!"
 echo ""
 echo "You can now try one of these sites:"
-echo "- http://1.2.10.local.neos.io/neos/"
-echo "- http://2.0.0.local.neos.io/neos/"
 echo "- http://6.2.14.local.typo3.org/typo3/"
 echo "- http://7.4.0.local.typo3.org/typo3/"
 echo "- http://local.typo3.org:1080/ <- mailcatcher"
@@ -96,7 +94,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 # If you have no Internet access (can not resolve *.local.typo3.org), you can use host aliases:
 # 	config.hostsupdater.aliases = [
 # 		'6.2.14.local.typo3.org',
-# 		'7.3.1.local.typo3.org'
+# 		'7.4.0.local.typo3.org'
 # 		]
 
 	# Network

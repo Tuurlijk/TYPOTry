@@ -1,10 +1,8 @@
 # TYPOTry
-A Vagrant box to try out the most recent NEOS and TYPO3 releases.
+A Vagrant box to try out the most recent TYPO3 releases.
 
 Just run `vagrant up` and visit:
 
-* [http://1.2.10.local.neos.io/neos/](http://1.2.10.local.neos.io/neos/)
-* [http://2.0.0.local.neos.io/neos/](http://2.0.0.local.neos.io/neos/)
 * [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/)
 * [http://7.4.0.local.typo3.org/typo3/](http://7.4.0.local.typo3.org/typo3/).
 
@@ -26,8 +24,6 @@ vagrant up
 
 3). Now you can visit:
 
-* [http://1.2.10.local.neos.io/neos/](http://1.2.10.local.neos.io/neos/)
-* [http://2.0.0.local.neos.io/neos/](http://2.0.0.local.neos.io/neos/)
 * [http://6.2.14.local.typo3.org/typo3/](http://6.2.14.local.typo3.org/typo3/)
 * [http://7.4.0.local.typo3.org/typo3/](http://7.4.0.local.typo3.org/typo3/).
 

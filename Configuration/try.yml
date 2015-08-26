@@ -3,7 +3,7 @@
 # Synced folders:
 #
 # Host system folders (src) that will be mounted on the guest system (target).
-# Homestead installs all sites and sources in the /var/www/ folder. So for ease
+# TYPOTry installs all sites and sources in the /var/www/ folder. So for ease
 # of use we recommend to mount a single host 'Development' folder on /var/www/.
 # Linux and OSX users will get the benefit of an NFS mount, but Windows users
 # will get the default Vagrant shared folder. SMB may also work fine in the
@@ -12,7 +12,7 @@
 # But...
 # If you want a SUPER fast VM, you can leave this set empty. No folders will be
 # shared from host to guest. You will have to set up your IDE to access the
-# Homestead box just as if it was a regular remote server. This will be fastest
+# TYPOTry box just as if it was a regular remote server. This will be fastest
 # because file intensive actions like class inspections etc. will take place on
 # the 'native' filesystem instead of over NFS or another 'mounted' filesystem.
 #synced_folders:
@@ -52,9 +52,3 @@
 #
 # Should any ports be forwarded to the host system? - generally not needed
 # forward_ports: no
-
-#sites:
-#  - name: 6.2.14.local.typo3.org
-#    tag: '6.2.14'
-#  - name: 7.3.1.local.typo3.org
-#    tag: '7.3.1'
