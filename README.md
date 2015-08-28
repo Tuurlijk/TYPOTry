@@ -43,6 +43,13 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 ## MailCatcher
 [MailCatcher](http://mailcatcher.me/) runs a super simple SMTP server which catches any message sent to it to display in a web interface. This makes it easy to test forms without actually sending mail to the 'real' mail address. Set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out [http://local.typo3.org:1080](http://local.typo3.org:1080) to see the mail that's arrived so far.
 
+## Can't connect after the vagrant up?
+
+This box needs internet connectivity to resolve the local.neos.io domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
+
+* 192.168.144.120 6.2.14.local.typo3.org
+* 192.168.144.120 7.4.0.local.typo3.org
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests and examples for any new or changed functionality.
 
