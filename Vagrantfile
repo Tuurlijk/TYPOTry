@@ -76,8 +76,8 @@ echo "============================================================="
 echo "All done!"
 echo ""
 echo "You can now try one of these sites:"
-echo "- http://6.2.15.local.typo3.org/typo3/"
-echo "- http://7.6.0.local.typo3.org/typo3/"
+echo "- http://6.2.17.local.typo3.org/typo3/"
+echo "- http://7.6.2.local.typo3.org/typo3/"
 echo "- http://local.typo3.org:1080/ <- mailcatcher"
 echo ""
 echo "Username: admin"
@@ -93,8 +93,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	config.vm.boot_timeout = 180
 # If you have no Internet access (can not resolve *.local.typo3.org), you can use host aliases:
 # 	config.hostsupdater.aliases = [
-# 		'6.2.15.local.typo3.org',
-# 		'7.6.0.local.typo3.org'
+# 		'6.2.17.local.typo3.org',
+# 		'7.6.2.local.typo3.org'
 # 		]
 
 	# Network
