@@ -8,8 +8,7 @@ Just run `vagrant up` and visit:
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
 
-Requirements
-------------
+## Requirements
 
 * [Virtualbox](https://www.virtualbox.org/) or another virtualization product - Free!
 * [Vagrant](http://www.vagrantup.com/) - Version 1.5.* or later is needed - Free!
