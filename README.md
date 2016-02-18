@@ -11,18 +11,14 @@ Just run `vagrant up` and visit:
 ## Installation
 Installation is pretty straight forward. You're just a couple of steps away from 'great success'.
 
-1). Clone TYPOTry and cd into it:
+Clone TYPOTry and cd into the new directory, then start the machine:
 ```bash
 git clone https://github.com/Tuurlijk/TYPOTry.git
 cd TYPOTry
-```
-
-2). Then boot the machine:
-```bash
 vagrant up
 ```
 
-3). Now you can visit:
+Now you can visit:
 
 * [http://6.2.18.local.typo3.org/typo3/](http://6.2.18.local.typo3.org/typo3/)
 * [http://7.6.3.local.typo3.org/typo3/](http://7.6.3.local.typo3.org/typo3/).
