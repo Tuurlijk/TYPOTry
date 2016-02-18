@@ -76,15 +76,14 @@ DEBUG = !!configuration['debug'] || false
 
 $script = <<SCRIPT
 echo "============================================================="
-echo "All done!"
-echo ""
-echo "You can now try one of these sites:"
-echo "- http://6.2.18.local.typo3.org/typo3/"
-echo "- http://7.6.3.local.typo3.org/typo3/"
-echo "- http://local.typo3.org:1080/ <- mailcatcher"
-echo ""
-echo "Username: admin"
-echo "Password: supersecret"
+echo "All done! You can now try any of these sites:"
+echo " "
+echo "TYPO3 (admin / supersecret)"
+echo "http://6.2.18.local.typo3.org/typo3/"
+echo "http://7.6.3.local.typo3.org/typo3/"
+echo " "
+echo "MailCatcher"
+echo "http://local.typo3.org:1080/"
 echo "============================================================="
 SCRIPT
 
