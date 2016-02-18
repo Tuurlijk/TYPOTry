@@ -34,7 +34,7 @@ Now you can visit:
 * [http://6.2.18.local.typo3.org/typo3/](http://6.2.18.local.typo3.org/typo3/)
 * [http://7.6.3.local.typo3.org/typo3/](http://7.6.3.local.typo3.org/typo3/).
 
-There you may need to run through the install tool. You can access the databases as user `typo3` with the password `supersecret`. If you are presented with a login screen, you can login as user `admin` with the password `supersecret`.
+You can login as user `admin` with the password `supersecret`.
 
 ## How do I get onto the box?
 You can login by doing a `vagrant ssh`. That user has full sudo privileges. Or you can `ssh vagrant@local.typo3.org` using password `vagrant`.
