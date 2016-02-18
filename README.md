@@ -17,7 +17,7 @@ Requirements
 ## Installation
 
 **without git**
-* Download the latest [TYPOTry zip file](https://github.com/Tuurlijk/TYPOTry)
+* Download the latest [TYPOTry zip file](https://github.com/Tuurlijk/TYPOTry/archive/master.zip)
 * Extract the zip file
 * Open a command shell
 * Go into the new directory
