@@ -5,6 +5,7 @@ Just run `vagrant up` and visit:
 
 * [http://6.2.19.local.typo3.org/typo3/](http://6.2.19.local.typo3.org/typo3/)
 * [http://7.6.4.local.typo3.org/typo3/](http://7.6.4.local.typo3.org/typo3/).
+* [http://8.0.0.local.typo3.org/typo3/](http://8.0.0.local.typo3.org/typo3/).
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
 
@@ -32,6 +33,7 @@ Now you can visit:
 
 * [http://6.2.19.local.typo3.org/typo3/](http://6.2.19.local.typo3.org/typo3/)
 * [http://7.6.4.local.typo3.org/typo3/](http://7.6.4.local.typo3.org/typo3/).
+* [http://8.0.0.local.typo3.org/typo3/](http://8.0.0.local.typo3.org/typo3/).
 
 You can login as user `admin` with the password `supersecret`.
 
@@ -46,8 +48,8 @@ To add your public ssh key to the authorized_keys file of the vagrant user, you 
 
 Now you will be able to get into the box as user vagrant without supplying a password.
 
-## MailCatcher
-[MailCatcher](http://mailcatcher.me/) runs a super simple SMTP server which catches any message sent to it to display in a web interface. This makes it easy to test forms without actually sending mail to the 'real' mail address. Set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out [http://local.typo3.org:1080](http://local.typo3.org:1080) to see the mail that's arrived so far.
+## MailHog
+[MailHog](https://github.com/mailhog/MailHog) runs a super simple SMTP server which catches any message sent to it to display in a web interface. This makes it easy to test forms without actually sending mail to the 'real' mail address. Set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out [http://mail.local.typo3.org](http://mail.local.typo3.org) to see the mail that's arrived so far.
 
 ## Can't connect after the vagrant up?
 
@@ -55,6 +57,7 @@ This box needs internet connectivity to resolve the local.neos.io domain name to
 
 * 192.168.144.120 6.2.19.local.typo3.org
 * 192.168.144.120 7.6.4.local.typo3.org
+* 192.168.144.120 8.0.0.local.typo3.org
 
 ## Known Problems
 

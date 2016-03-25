@@ -52,7 +52,7 @@ if MEMORY.to_i < 1024
 end
 
 # Network
-PRIVATE_NETWORK = configuration['private_interface'] || '192.168.144.120'
+BOX_IP = configuration['private_interface'] || '192.168.144.120'
 
 # Determine if we need to forward ports
 FORWARD = configuration['forward_ports'] || 0
@@ -81,9 +81,10 @@ echo " "
 echo "TYPO3 (admin / supersecret)"
 echo "http://6.2.19.local.typo3.org/typo3/"
 echo "http://7.6.4.local.typo3.org/typo3/"
+echo "http://8.0.0.local.typo3.org/typo3/"
 echo " "
-echo "MailCatcher"
-echo "http://local.typo3.org:1080/"
+echo "MailHog"
+echo "http://mail.local.typo3.org/"
 echo "============================================================="
 SCRIPT
 
@@ -96,11 +97,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 # If you have no Internet access (can not resolve *.local.typo3.org), you can use host aliases:
 # 	config.hostsupdater.aliases = [
 # 		'6.2.19.local.typo3.org',
-# 		'7.6.4.local.typo3.org'
+# 		'7.6.4.local.typo3.org',
+# 		'8.0.0.local.typo3.org'
 # 		]
 
 	# Network
-	config.vm.network :private_network, ip: PRIVATE_NETWORK
+	config.vm.network :private_network, ip: BOX_IP
 	if FORWARD.to_i > 0
 		config.vm.network :forwarded_port, guest: 80, host: 8080
 		config.vm.network :forwarded_port, guest: 3306, host: 33060
@@ -152,8 +154,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 			config.vm.synced_folder folder['src'], folder['target'],
 				id: folder['name'],
 				:nfs => true,
-				:mount_options => ['vers=3,udp,noacl,nocto,nosuid,nodev,nolock,noatime,nodiratime'],
-				:linux__nfs_options => ['no_root_squash']
+				:mount_options => ['vers=3,udp,noacl,nocto,nosuid,nodev,nolock,noatime,nodiratime,rw'],
+				:linux__nfs_options => ['no_root_squash,rw,no_subtree_check']
 		else
 			cfg.vm.synced_folder folder['src'], folder['target']
 		end
