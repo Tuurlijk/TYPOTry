@@ -3,9 +3,9 @@ A Vagrant box to try out the most recent TYPO3 releases.
 
 Just run `vagrant up` and visit:
 
-* [http://6.2.19.local.typo3.org/typo3/](http://6.2.19.local.typo3.org/typo3/)
-* [http://7.6.4.local.typo3.org/typo3/](http://7.6.4.local.typo3.org/typo3/).
-* [http://8.0.0.local.typo3.org/typo3/](http://8.0.0.local.typo3.org/typo3/).
+* [http://6.2.21.local.typo3.org/typo3/](http://6.2.21.local.typo3.org/typo3/)
+* [http://7.6.5.local.typo3.org/typo3/](http://7.6.5.local.typo3.org/typo3/).
+* [http://8.0.1.local.typo3.org/typo3/](http://8.0.1.local.typo3.org/typo3/).
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
 
@@ -31,9 +31,9 @@ Just run `vagrant up` and visit:
 
 Now you can visit:
 
-* [http://6.2.19.local.typo3.org/typo3/](http://6.2.19.local.typo3.org/typo3/)
-* [http://7.6.4.local.typo3.org/typo3/](http://7.6.4.local.typo3.org/typo3/).
-* [http://8.0.0.local.typo3.org/typo3/](http://8.0.0.local.typo3.org/typo3/).
+* [http://6.2.21.local.typo3.org/typo3/](http://6.2.21.local.typo3.org/typo3/)
+* [http://7.6.5.local.typo3.org/typo3/](http://7.6.5.local.typo3.org/typo3/).
+* [http://8.0.1.local.typo3.org/typo3/](http://8.0.1.local.typo3.org/typo3/).
 
 You can login as user `admin` with the password `supersecret`.
 
@@ -55,9 +55,9 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 
 This box needs internet connectivity to resolve the local.neos.io domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
-* 192.168.144.120 6.2.19.local.typo3.org
-* 192.168.144.120 7.6.4.local.typo3.org
-* 192.168.144.120 8.0.0.local.typo3.org
+* 192.168.144.120 6.2.21.local.typo3.org
+* 192.168.144.120 7.6.5.local.typo3.org
+* 192.168.144.120 8.0.1.local.typo3.org
 
 ## Known Problems
 
