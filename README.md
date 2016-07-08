@@ -12,7 +12,7 @@ Just run `vagrant up` and visit:
 ## Requirements
 
 * [Virtualbox](https://www.virtualbox.org/) or another virtualization product - Free!
-* [Vagrant](http://www.vagrantup.com/) - Version 1.7.* or later is needed - Free!
+* [Vagrant](http://www.vagrantup.com/) - Version 1.8.4 or later is needed - Free!
 
 ## Installation
 
