@@ -53,7 +53,7 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 
 ## Can't connect after the vagrant up?
 
-This box needs internet connectivity to resolve the local.neos.io domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
+This box needs internet connectivity to resolve the local.typo3.org domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
 * 192.168.144.120 6.2.30.local.typo3.org
 * 192.168.144.120 7.6.15.local.typo3.org
