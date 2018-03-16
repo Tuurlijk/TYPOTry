@@ -51,7 +51,7 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 
 This box needs internet connectivity to resolve the local.typo3.org domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
-* 192.168.144.120 9.1.0.local.typo3.org
+* `192.168.144.120 9.1.0.local.typo3.org`
 
 ## Known Problems
 
