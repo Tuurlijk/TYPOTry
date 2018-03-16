@@ -1,11 +1,9 @@
 # TYPOTry
-A Vagrant box to try out the most recent TYPO3 releases.
+A Vagrant box to try out the most recent TYPO3 release.
 
 Just run `vagrant up` and visit:
 
-* [http://6.2.30.local.typo3.org/typo3/](http://6.2.30.local.typo3.org/typo3/)
-* [http://7.6.15.local.typo3.org/typo3/](http://7.6.15.local.typo3.org/typo3/).
-* [http://8.6.0.local.typo3.org/typo3/](http://8.6.0.local.typo3.org/typo3/).
+* [http://9.1.0.local.typo3.org/typo3/](http://9.1.0.local.typo3.org/typo3/)
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TYPOTry&title=TYPOTry&language=Ansible&tags=github&category=software)
 
@@ -31,9 +29,7 @@ Just run `vagrant up` and visit:
 
 Now you can visit:
 
-* [http://6.2.30.local.typo3.org/typo3/](http://6.2.30.local.typo3.org/typo3/)
-* [http://7.6.15.local.typo3.org/typo3/](http://7.6.15.local.typo3.org/typo3/).
-* [http://8.6.0.local.typo3.org/typo3/](http://8.6.0.local.typo3.org/typo3/).
+* [http://9.1.0.local.typo3.org/typo3/](http://9.1.0.local.typo3.org/typo3/)
 
 You can login as user `admin` with the password `supersecret`.
 
@@ -55,14 +51,10 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 
 This box needs internet connectivity to resolve the local.typo3.org domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
-* 192.168.144.120 6.2.30.local.typo3.org
-* 192.168.144.120 7.6.15.local.typo3.org
-* 192.168.144.120 8.6.0.local.typo3.org
+* 192.168.144.120 9.1.0.local.typo3.org
 
 ## Known Problems
 
-* The sources that are fetched from github may be hard to reach when github is under a DDOS
-* If you get the error `The box 'ubuntu/trusty64' could not be found`, then you may have a vagrant version lower than 1.5. The stock Ubuntu vagrant version is 1.4 at the time of writing. You can get the latest vagrant version from [the vagrant site](https://www.vagrantup.com/downloads). Some details can be found on [vaprobash issue #322](https://github.com/fideloper/Vaprobash/issues/322).
 * On Windows machines you may need to enable VT-X in the bios of your machine. vt-x is disabled in the BIOS, you can disable this in the image settings under system tab processor, PAE/NX disable or you can enable this setting in your BIOS. Check: [http://www.sysprobs.com/disable-enable-virtualization-technology-bios](http://www.sysprobs.com/disable-enable-virtualization-technology-bios) and check your windows version ( minimal a Pro-edition) or [Enable without BIOS](http://stackoverflow.com/questions/31581854/enabling-intel-virtualization-vt-x-without-option-in-bios).
 * Vagrant may complain about a 'space' character in your path. Ruby can't handle this. You will need to move the Vagrant box to a path without spaces and try again.
 
