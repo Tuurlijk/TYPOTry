@@ -1,5 +1,5 @@
 # TYPOTry
-A Vagrant box to try out the most recent TYPO3 release.
+A smallish (193 MB) Vagrant box to try out the most recent TYPO3 release.
 
 Just run `vagrant up` and visit:
 
