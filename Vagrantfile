@@ -1,6 +1,10 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+unless Vagrant.has_plugin?("vagrant-alpine")
+  raise 'Please install the vagrant-alpine plugin.'
+end
+
 require 'yaml'
 
 path = "#{File.dirname(__FILE__)}"
