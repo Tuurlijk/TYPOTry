@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 unless Vagrant.has_plugin?("vagrant-alpine")
-  raise 'Please install the vagrant-alpine plugin.'
+  raise 'Please install the vagrant-alpine plugin by using the command: "vagrant plugin install vagrant-alpine".'
 end
 
 require 'yaml'
